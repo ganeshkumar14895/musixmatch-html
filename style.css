@@ -1,0 +1,102 @@
+*
+{
+margin:0;
+padding:0;
+}
+nav
+{
+/* background-color: #7f74c4;
+border: 5px solid yellowgreen; */
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    list-style-type: none;
+    color: rgb(6, 70, 206);
+}
+nav ul li:hover{
+    color: rgb(8, 163, 99);
+    text-decoration: underline;
+}
+.button-1
+{
+    background-color: yellowgreen;
+    color: rgb(70, 78, 185);
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+.button:hover
+{
+    background-color: rgb(75, 142, 219);
+}
+.sec-1{
+    background-color: white;
+    box-shadow: -1px 20px 9px 1px rgba(168,178,184,0.72);
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.sec-1 h1{
+font-size: 70px;
+}
+.subsec-1,.subsec-2,.subsec-3,.subsec-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subsec-1 ul li,.subsec-2 ul li,.subsec-3 ul li,.subsec-4 ul li{
+    list-style-type: none;
+}
+.main-sec
+{
+    display: flex;
+    justify-content: center;
+}
+.button-2{
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover
+{
+    background-color: aliceblue;
+    box-shadow: -27px 1px 0px 11px rgba(215,223,224,0.75);
+    width: 100%;
+    margin-top: 50px;
+}
+.sec-3 h3{
+    bottom: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subsec-5,.subsec-6,.subsec-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.subsec-8,.subsec-9,.subsec-10,.subsec-11,.subsec-12,.subsec-13
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.subsec-14,.subsec-15,.subsec-16
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+   
